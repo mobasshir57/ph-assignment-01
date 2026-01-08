@@ -64,8 +64,6 @@
     border-radius: 100px;
     margin-bottom: 16px;
     align-items: center;
-    
-    
 }
 .mini img{
     width: 18px;
@@ -88,7 +86,7 @@
   align-items: center;
 
 }
-.btn .left{
+.left{
     font-size: 16px;
     font-weight: 600px;
     color: #FFFFFF;
@@ -121,4 +119,131 @@
 }
 .btn .right img{
      width: 20px;
+}
+
+.card-container{
+    width: 1380px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 35px;
+}
+.card-txt{
+    margin-bottom: 44px;
+}
+.card-txt h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card-txt p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+.card-item{
+    display: flex;
+    gap: 24px   ;
+}
+.card-info{
+    padding: 69.5px 24px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.06);
+}
+.card-info img{
+    width: 60px;
+    background-color: #F95555;
+    padding: 14px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+
+}
+.card-info h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+
+.knowledge{
+    padding: 120px;
+}
+.brain-img{
+    width: 1360px;
+    margin: 0px auto;
+    display: flex;
+    gap: 60px;
+}
+.the-img{
+    width: 600px;
+}
+.brain-text{
+    width: 600px;
+    padding-top: 100px;
+}
+.Solution{
+    font-size: 16px;
+    font-weight: 400;
+    color: #30B868;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.brain-text h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-text .ltext{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.brain-text .text-1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #001931;
+    line-height: 20px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center; 
+}
+.brain-text .text-1 img{
+    width: 20px;
+    margin-right: 6px;
+    
+}
+
+.think{
+    
+}
+.think-more{
+    width:1360px;
+    background-color: #F7F6F2;
+    margin: 0px auto;
+    padding: 80px 40px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.think-more h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.think-more p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 22px;
+    margin-bottom: 24px;
+}
+.l-b{
+    margin-bottom: 16px;
 }
