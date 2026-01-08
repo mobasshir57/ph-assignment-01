@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;}
+#navigation {
+    display: flex;
+    justify-content: space-around;
+
+}
+#navigation img{
+    width: 140px;
+    margin: 16px ;
+}
+#navigation .list{
+    display: flex;
+    list-style: none;
+    gap: 32px   ;
+    margin: 34px;
+    font-size: 16px;
+    color: #000000;
+}
+#navigation .header-btn{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    background-color: #469165;
+    margin: 24px 120px;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero{
+    background: url(../images/hero-bg.png);
+    width: 100%;
+    height: 674px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.hero-section{
+    width: 1400px;
+    margin: 0px auto;
+    padding:  115px 120px 180px;
+    text-align: center;
+
+}
+.hero-section h1{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    font-size: 72px;
+}
+.mini{
+    font-size: 16px;
+    color: #276941;
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    align-items: center;
+    
+    
+}
+.mini img{
+    width: 18px;
+    padding-top: 1.5px;
+    padding-right: 6px;
+}
+.banner-text{
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    line-height: 24px;
+    font-size: 18px;
+
+}
+.color{
+    color: #30B868;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+}
+.btn .left{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    background-color: #469165;
+    padding: 16.5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn .left img{
+    width: 20px;
+    
+}
+.btn .right{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    background: transparent;
+    padding: 12px;
+    border: 2px #FFFFFF solid;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+.btn .right img{
+     width: 20px;
+}
