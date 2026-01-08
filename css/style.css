@@ -247,3 +247,37 @@
 .l-b{
     margin-bottom: 16px;
 }
+
+footer{
+    width: 100%;
+    background-color: #001931;
+}
+.footer-content{
+    display: flex;
+    padding: 120px;
+    justify-content: space-between;
+}
+.footer-content img{
+    width: 140px;
+}
+.social p{
+    font-size: 20px;
+    font-size: medium;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.icons{
+    display: flex;
+    gap: 16px;
+}
+.icon{
+    width: 10px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 16px;
+    color: #FAFAFA;
+    padding-bottom: 40px;
+}
