@@ -22,6 +22,15 @@
     margin: 34px;
     font-size: 16px;
     color: #000000;
+    cursor: pointer;
+}
+#navigation .list li:hover{
+    background-color: #27f17b;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 1px;
+    border-radius: 5px;
+
 }
 #navigation .header-btn{
     font-size: 16px;
@@ -33,6 +42,11 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+#navigation .header-btn:hover{
+    background-color: #fbff01;
+    color: #000000;
+    transition: 0.5s;
 }
 .hero{
     background: url(../images/hero-bg.png);
@@ -98,6 +112,7 @@
     display: inline-flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 .btn .left img{
     width: 20px;
@@ -114,13 +129,21 @@
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    
+    cursor: pointer;
 
 }
 .btn .right img{
      width: 20px;
 }
+.left:hover{
+    background-color: rgb(61, 182, 242);
+    transition: .3s;
+}
 
+.right:hover{
+    background-color: rgb(242, 61, 191);
+    transition: .5s;
+}
 .card-container{
     width: 1380px;
     margin: 0px auto;
@@ -218,12 +241,9 @@
 .brain-text .text-1 img{
     width: 20px;
     margin-right: 6px;
-    
 }
 
-.think{
-    
-}
+
 .think-more{
     width:1360px;
     background-color: #F7F6F2;
@@ -259,20 +279,29 @@ footer{
 }
 .footer-content img{
     width: 140px;
+   
 }
 .social p{
-    font-size: 20px;
-    font-size: medium;
+    font-size: 25px;
+    font-weight: medium;
     line-height: 20px;
     color: #FFFFFF;
+    margin: 0;
+    padding: 0;
     margin-bottom: 16px;
+    
 }
 .icons{
     display: flex;
+    align-items: center;
     gap: 16px;
 }
-.icon{
-    width: 10px;
+.icons a{
+    font-size: 20px;
+    width: 30px;
+    background-color: #F7F6F2;
+    text-align: center;
+    border-radius: 50%;
 }
 
 footer p{
@@ -280,4 +309,13 @@ footer p{
     font-size: 16px;
     color: #FAFAFA;
     padding-bottom: 40px;
+    margin-top: 10px;
+}
+
+footer .line-br{
+    height: 1px;
+    border: none;
+    background-color: #000000;
+    max-width: 1400px;
+    margin: 24px auto;
 }
